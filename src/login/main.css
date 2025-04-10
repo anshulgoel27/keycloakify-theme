@@ -1,0 +1,14 @@
+body {
+    color: black;
+}
+
+.login-pf body {
+    background: none;
+    background-color: white;
+}
+
+:root {
+    --pf-global--primary-color--100: #98C1D9;
+    --pf-global--primary-color--200: #65a8c1;
+}
+
