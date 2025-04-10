@@ -2,6 +2,7 @@
 
 # === Owned files start ===
 # account/KcPage.tsx
+# account/root/Header.tsx
 # === Owned files end =====
 
 # === @keycloakify/keycloak-account-ui v260007.0.3 ===
@@ -21,7 +22,6 @@
 /account/root/ErrorPage.tsx
 /account/root/PageNav.tsx
 /account/root/Root.tsx
-/account/root/Header.tsx
 /account/assets/favicon.svg
 /account/account-security/DeviceActivity.tsx
 /account/api/methods.ts
