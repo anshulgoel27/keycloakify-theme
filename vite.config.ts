@@ -7,7 +7,18 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "Multi-Page"
+            accountThemeImplementation: "none",
+            startKeycloakOptions: {
+                dockerExtraArgs: [
+                    "-e", "KC_HTTP_RELATIVE_PATH=/auth",
+					//"-e", "KEYCLOAK_EXTRA_ARGS=\"--java-opts=--Djavax.net.debug=ssl:handshake:verbose\"",
+					"-e", "ORG_MGMT_BASEURL=https://mockapi.intellipins.com"
+                   ]
+                   ,extensionJars: [
+                    "./ext/keycloak-events-0.46-SNAPSHOT.jar",
+					"./ext/phasetwo-admin-portal-0.36-SNAPSHOT.jar"
+                   ]
+            }
         })
     ]
 });
