@@ -2,13 +2,41 @@ body {
     color: black;
 }
 
+/* Light mode (default) */
 .login-pf body {
     background: none;
     background-color: white;
+    color: black;
 }
 
-:root {
-    --pf-global--primary-color--100: #98C1D9;
-    --pf-global--primary-color--200: #65a8c1;
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    .login-pf body {
+        background: none;
+        background-color: #121212; /* or #000 for true black */
+        color: white;
+    }
 }
+@media (prefers-color-scheme: dark) {
+    .card-pf {
+        background: #000; /* or #000 for true black */ 
+    }
+}
+:root {
+  --pf-global--primary-color--100: #98C1D9;
+  --pf-global--primary-color--200: #65a8c1;
+}
+
+#kc-info-wrapper {
+    background-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pf-global--primary-color--100: #294c60; /* darker tone */
+    --pf-global--primary-color--200: #1e3647;
+  }
+}
+
 
