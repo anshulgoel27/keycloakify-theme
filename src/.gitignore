@@ -3,6 +3,9 @@
 # === Owned files start ===
 # account/KcPage.tsx
 # account/root/Header.tsx
+# email/messages/messages_en.properties
+# email/html/template.ftl
+# email/html/email-verification.ftl
 # === Owned files end =====
 
 # === @keycloakify/keycloak-ui-shared v260007.0.5 ===
@@ -79,13 +82,11 @@
 /email/html/email-test.ftl
 /email/html/email-update-confirmation.ftl
 /email/html/event-login_error.ftl
-/email/html/email-verification.ftl
 /email/html/email-verification-with-code.ftl
 /email/html/event-update_password.ftl
 /email/html/event-remove_totp.ftl
 /email/html/executeActions.ftl
 /email/html/org-invite.ftl
-/email/html/template.ftl
 /email/html/event-user_disabled_by_temporary_lockout.ftl
 /email/html/identity-provider-link.ftl
 /email/messages/messages_ca.properties
@@ -105,7 +106,6 @@
 /email/messages/messages_hu.properties
 /email/messages/messages_ja.properties
 /email/messages/messages_el.properties
-/email/messages/messages_en.properties
 /email/html/event-remove_credential.ftl
 /email/messages/messages_no.properties
 /email/messages/messages_nl.properties
