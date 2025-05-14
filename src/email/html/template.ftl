@@ -12,7 +12,7 @@
     <table width="100%" cellpadding="0" cellspacing="0">
         <tr>
             <td align="center">
-                <table width="600" cellpadding="40" cellspacing="0" style="background-color: #ffffff; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-top: 1px solid #eaeaea; margin-top: 40px;">
+                <table width="600" cellpadding="40" cellspacing="0" style="background-color: #ffffff; margin-top: 40px;">
                     <tr>
                         <td align="center" style="padding-bottom: 0;">
                             <img src="${url.resourcesUrl}/kc-logo.png" alt="Company Logo" style="max-width: 250px; height: auto; margin-bottom: 20px">
