@@ -612,13 +612,6 @@
   resolved "https://registry.yarnpkg.com/@keycloakify/email-native/-/email-native-260007.0.0.tgz#8ee9a889ca022fa13f2d13f166f3c1fa565dc37c"
   integrity sha512-hFUiOwwpc84eXPAct44G/pTBkYnDQF1jIObME+ZUrb7XidmFJ/TdH9q49LKpd9sIivSyOEJa1qLtrggP+c+BJw==
 
-"@keycloakify/keycloak-account-ui@~260007.0.3":
-  version "260007.0.3"
-  resolved "https://registry.yarnpkg.com/@keycloakify/keycloak-account-ui/-/keycloak-account-ui-260007.0.3.tgz#9b27f30b8f6ae79fe733de96fc3e6ef5a5450b2b"
-  integrity sha512-MsTKlUUrgF0YRojz7IF1Y6AgI5lGbNOQoWY4kxOhlYPBaG3sovjnW8YatAJf2bBSCQgb1Y7OtSxmUJmgH1IX6Q==
-  dependencies:
-    tsafe "^1.8.5"
-
 "@keycloakify/keycloak-ui-shared@~260007.0.2":
   version "260007.0.5"
   resolved "https://registry.yarnpkg.com/@keycloakify/keycloak-ui-shared/-/keycloak-ui-shared-260007.0.5.tgz#be1ba509dab1b4ab1979806d208e8f7170b2493f"
@@ -2815,10 +2808,10 @@ react-dropzone@^14.2.3:
     file-selector "^2.1.0"
     prop-types "^15.8.1"
 
-react-hook-form@^7.53.0:
-  version "7.55.0"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.55.0.tgz#df3c80a20a68f6811f49bec3406defaefb6dce80"
-  integrity sha512-XRnjsH3GVMQz1moZTW53MxfoWN7aDpUg/GpVNc4A3eXRVNdGXfbzJ4vM4aLQ8g6XCUh1nIbx70aaNCl7kxnjog==
+react-hook-form@7.53.0:
+  version "7.53.0"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.53.0.tgz#3cf70951bf41fa95207b34486203ebefbd3a05ab"
+  integrity sha512-M1n3HhqCww6S2hxLxciEXy2oISPnAzxY7gvwVPrtlczTM/1dDadXgUxDpHMrMTblDOcm/AXtXxHwZ3jpg1mqKQ==
 
 react-i18next@^15.0.2:
   version "15.4.1"
